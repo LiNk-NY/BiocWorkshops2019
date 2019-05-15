@@ -15,6 +15,7 @@ Imports:
   TCGAutils,
   UpSetR,
   mirbase.db,
+  TxDb.Hsapiens.UCSC.hg19.knownGene,
   AnnotationFilter,
   EnsDb.Hsapiens.v86,
   survival,
