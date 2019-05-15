@@ -4,6 +4,7 @@ Title: Bioconductor 2019 Conference Workshops
 Version: 3.9.0
 Depends: R (>= 3.6.0), R (< 3.7.0)
 Imports:
+  bookdown,
   MultiAssayExperiment,
   GenomicRanges,
   RaggedExperiment,
