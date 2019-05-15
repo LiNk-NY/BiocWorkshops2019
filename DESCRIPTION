@@ -20,5 +20,6 @@ Imports:
   survival,
   survminer,
   pheatmap
+Suggests: BiocStyle
 Remotes: rstudio/bookdown
 
