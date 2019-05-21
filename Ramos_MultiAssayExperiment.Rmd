@@ -752,6 +752,7 @@ a more managable `MultiAssayExperiment` object and using
 `RangedSummarizedExperiment` assays where possible.
 
 ```{r}
+genome(acc[[3]]) <- vapply(genome(acc[[3]]), translateBuild, character(1L))
 (simpa <- TCGAutils::simplifyTCGA(acc))
 ```
 
@@ -1047,7 +1048,7 @@ SummarizedExperiment objects:
 ```{r}
 getrr <- function(identifiers, EnsDbFilterFunc=AnnotationFilter::SymbolFilter) {
     edb <- EnsDb.Hsapiens.v86::EnsDb.Hsapiens.v86
-    afl <- AnnotationFilterList(
+    afl <- AnnotationFilter::AnnotationFilterList(
         EnsDbFilterFunc(identifiers),
         SeqNameFilter(c(1:21, "X", "Y")),
         TxBiotypeFilter("protein_coding"))
