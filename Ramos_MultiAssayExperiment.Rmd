@@ -123,7 +123,7 @@ experiments.
 ### `(Ranged)SummarizedExperiment`
 
 ```{r, echo = FALSE, fig.cap = "A matrix-like container where rows represent features of interest and columns represent samples. The objects contain one or more assays, each represented by a matrix-like object of numeric or other mode."}
-knitr::include_graphics("100_Morgan_RBiocForAll/SummarizedExperiment.png")
+knitr::include_graphics("SummarizedExperiment.png")
 ```
 
 `SummarizedExperiment` is the most important Bioconductor class for matrix-like
