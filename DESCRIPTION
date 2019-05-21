@@ -16,7 +16,7 @@ Imports:
   UpSetR,
   mirbase.db,
   TxDb.Hsapiens.UCSC.hg19.knownGene,
-  org.HS.eg.db,
+  org.Hs.eg.db,
   AnnotationFilter,
   EnsDb.Hsapiens.v86,
   survival,
